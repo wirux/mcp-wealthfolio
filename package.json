@@ -1,0 +1,62 @@
+{
+  "name": "@wirux/mcp-wealthfolio",
+  "version": "0.0.0",
+  "description": "MCP server for Wealthfolio — read-only portfolio analysis and advisory rebalancing for LLM clients",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "wealthfolio-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prepack": "npm run build"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "mcp",
+    "wealthfolio",
+    "portfolio",
+    "investing",
+    "model-context-protocol"
+  ],
+  "author": "wirux",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wirux/mcp-wealthfolio.git"
+  },
+  "homepage": "https://github.com/wirux/mcp-wealthfolio#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.8",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.1",
+    "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^3.0.0",
+    "semantic-release": "^25.0.3",
+    "typescript": "^5.8.0",
+    "vitest": "^3.0.0"
+  }
+}

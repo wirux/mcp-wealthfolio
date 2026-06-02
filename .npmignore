@@ -1,0 +1,10 @@
+src/
+tests/
+coverage/
+.github/
+.sisyphus/
+vitest.config.ts
+tsconfig.json
+CLAUDE.md
+CONTRIBUTING.md
+*.test.ts

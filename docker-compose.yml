@@ -1,0 +1,14 @@
+services:
+  mcp-wealthfolio:
+    image: ghcr.io/wirux/mcp-wealthfolio:latest
+    container_name: mcp-wealthfolio
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      WEALTHFOLIO_URL: http://wealthfolio:8088
+      WEALTHFOLIO_PASSWORD: ${WEALTHFOLIO_PASSWORD}
+      WEALTHFOLIO_ALLOW_INSECURE: "true"
+      MCP_TRANSPORT_TYPE: http
+      PORT: "3000"
+      LOG_LEVEL: info

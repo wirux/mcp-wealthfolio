@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.git/
+coverage/
+.env
+*.env.local
+tests/
+.github/
+.sisyphus/
+*.test.ts
+vitest.config.ts
+CLAUDE.md
+CONTRIBUTING.md
+.DS_Store

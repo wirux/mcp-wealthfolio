@@ -1,0 +1,23 @@
+Task 5: Wealthfolio API Response Fixtures
+Date: 2026-05-14
+Instance: http://localhost:8088
+Auth: failed - tested the provided common password candidates (`<password>` placeholder in docs); all returned 401 Invalid password when retried with rate-limit pacing
+Files captured:
+- tests/fixtures/openapi.json
+- tests/fixtures/responses/healthz.json
+- tests/fixtures/responses/readyz.json
+- tests/fixtures/responses/auth-login.json
+- tests/fixtures/responses/auth-status.json
+- tests/fixtures/responses/accounts.json
+- tests/fixtures/responses/holdings.json
+- tests/fixtures/responses/allocations.json
+- tests/fixtures/responses/performance-summary.json
+- tests/fixtures/responses/performance-history.json
+- tests/fixtures/responses/activities-search.json
+- tests/fixtures/responses/net-worth.json
+- tests/fixtures/README.md
+Cookie name: not observed (no successful login, no Set-Cookie header)
+expiresIn: not observed because authentication never succeeded
+Notes:
+- /api/v1/openapi.json returned 401 Unauthorized on this instance
+- Login endpoint rate-limited repeated attempts with 429 and retry-after/x-ratelimit-after headers

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+.env
+*.env.local
+.sisyphus/
+test_output.txt
+.DS_Store
+.sisyphus

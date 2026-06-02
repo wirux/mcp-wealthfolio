@@ -1,0 +1,8 @@
+Empty portfolio responses captured:
+- accounts: not captured; endpoint required auth and returned {"code":401,"message":"Unauthorized"}
+- holdings: not captured; endpoint required auth and returned {"code":401,"message":"Unauthorized"}
+- allocations: not captured; endpoint required auth and returned {"code":401,"message":"Unauthorized"}
+- performance-summary: not captured; endpoint required auth and returned {"code":401,"message":"Unauthorized"}
+- performance-history: not captured; endpoint required auth and returned {"code":401,"message":"Unauthorized"}
+- net-worth: not captured; endpoint required auth and returned {"code":401,"message":"Unauthorized"}
+- activities-search: not captured; endpoint required auth and returned {"code":401,"message":"Unauthorized"}
