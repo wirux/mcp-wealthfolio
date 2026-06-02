@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/wirux/mcp-wealthfolio/compare/v1.0.0...v1.0.1) (2026-06-02)
+
+
+### Bug Fixes
+
+* docker version tag ([275d8d9](https://github.com/wirux/mcp-wealthfolio/commit/275d8d9b1f367a20a2e42e4ad669792d1547a0a6))
+
 # 1.0.0 (2026-06-02)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@wirux/mcp-wealthfolio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Wealthfolio — read-only portfolio analysis and advisory rebalancing for LLM clients",
   "type": "module",
   "main": "dist/index.js",
